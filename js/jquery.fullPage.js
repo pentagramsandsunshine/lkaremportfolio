@@ -147,6 +147,7 @@
         //TO BE REMOVED in future versions. Maintained temporaly for backwards compatibility.
         $.extend($.easing,{ easeInQuart: function (x, t, b, c, d) { return c*(t/=d)*t*t*t + b; }});
 
+        /* */
         FP.setAutoScrolling = function(value, type){
             setVariableState('autoScrolling', value, type);
 
