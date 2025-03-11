@@ -254,6 +254,13 @@ h1,h2,h3,h4,h5
 /* end work */
 
 /* start about */
+#about .pic-me-img {
+    display: flex;
+    align-items: flex-start; /* Align items at the top */
+   
+}
+
+
 #about h4
     {
         padding: 15px 0;
